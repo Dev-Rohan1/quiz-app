@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #1f4fb0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+.quiz-title {
+  font-size: 25px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #000;
+}
+
+.quiz-app {
+  margin-top: 10px;
+}
+
+.question h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.answer {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #fff;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding: 8px 0px 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.btn:hover:not([disabled]) {
+  background-color: #2222;
+}
+
+.btn:disabled {
+  color: #000;
+  cursor: no-drop;
+}
+
+.answer button:last-child {
+  margin-bottom: 20px;
+}
+
+.next-btn {
+  background-color: #30216e;
+  color: #fff;
+  display: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  margin: auto;
+  padding: 8px 50px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #faf5e4;
+}
+
+.incorrect {
+  background-color: #7dd87d;
+  color: #fff;
+}
